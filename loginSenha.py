@@ -15,7 +15,7 @@ def login():
 
     print("--- Sistema de Login ---")
 
-    # Loop principal, continuará até que um break ou exit() seja executado
+    # Loop principal, continuará até que usuario e senha estejam corretos ou errados
     while True:
         # Pede credenciais
         user = input('Informe o usuario: ')
