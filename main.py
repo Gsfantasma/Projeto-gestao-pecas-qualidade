@@ -68,9 +68,13 @@ def exibir_menu ():
     """Exibe o menu principal."""
     limpar_tela()
     print (f"{Fore.BLUE}##### GESTÃO DE PEÇAS #####")
-    print ("1 - Adicionar Peça")
-    print ("2 - Exibir Peças")
+    print ("1 - Cadastrar Peça")
+    print ("2 - Peças Cadastradas")
     print ("3 - Remover Peça")
+    #print ("4 - Caixas Fechadas")
+    #print ("5 - Relatorio Peças - Aprovadas")
+    #print ("6 - Relatorio Peças - Reprovadas")
+    #print ("6 - Relatorio Peças - Reprovadas")
     print ("0 - Sair")
     print (f"{Fore.BLUE}###########################")
 
