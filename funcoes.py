@@ -1,6 +1,5 @@
 #Funções de execuçao do programa
 
-# funcoes.py
 import os
 from colorama import init, Fore
 from datetime import datetime
@@ -54,7 +53,7 @@ def avaliar_qualidade(peca):
         
         # Critério 1: Peso
         if not (95 <= peso <= 105):
-            motivo.append("Peso fora do intervalo (95g-105g)")
+            motivo.append("Peso fora do limite (95g-105g)")
             
         # Critério 2: Cor
         if cor not in ["azul", "verde"]:
@@ -250,7 +249,7 @@ def exibir_menu():
     print ("1 - Cadastrar Nova Peça")
     print ("2 - Peças Cadastradas (Novas)")
     print ("3 - Remover Peça Cadastrada")
-    print ("4 - ** Processar Peças (Qualidade e Armazenamento) **")
+    print ("4 - Processar Peças (Qualidade e Armazenamento)")
     print ("---")
     print ("5 - Relatório de Peças Reprovadas")
     print ("6 - Caixas Fechadas")
