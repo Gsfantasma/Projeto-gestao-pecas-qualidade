@@ -1,4 +1,8 @@
-#Interface do Sistema
+# Módulo: app.py
+# Descrição: Implementa a interface gráfica principal da Gestão de Peças.
+# Autor: Glauco Adenauer
+# Data de Criação: 14 de Novembro de 2025
+# Versão: 1.0
 
 import customtkinter as ctk 
 from loginSenha import login # Importa a função de login
@@ -40,6 +44,7 @@ class MainApp(ctk.CTk):
 
         # Criação do Frame para a tela de login
         self.frame_login = ctk.CTkFrame(self)
+        
         # CORREÇÃO: Usando grid para ocupar todo o espaço
         self.frame_login.grid(row=0, column=0, padx=20, pady=20, sticky="nsew")
         self.grid_rowconfigure(0, weight=1)

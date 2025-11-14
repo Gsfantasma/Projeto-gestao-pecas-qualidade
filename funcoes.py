@@ -1,4 +1,8 @@
-#Funções de execuçao do programa
+# Módulo: funcoes.py
+# Descrição: Implementa funções principais ao projeto.
+# Autor: Glauco Adenauer
+# Data de Criação: 14 de Novembro de 2025
+# Versão: 1.0
 
 import os
 from colorama import init, Fore

@@ -1,4 +1,9 @@
 # projeto Gestão de Peças com Qualidade e Armazenamento
+# Módulo: main.py
+# Descrição: Implenta a chamada principal
+# Autor: Glauco Adenauer
+# Data de Criação: 14 de Novembro de 2025
+# Versão: 1.0
 
 #Fabrica de Apontadores GS
 
@@ -16,3 +21,5 @@ if __name__ == "__main__":
     app() 
     # A execução do console é encerrada após o fechamento da janela
 print("Sistema encerrado.")
+
+#Objetivo principal é fazer apenas chamada principal mantendo a segurança do codigo e preservando regras de negocio e dados internos

@@ -1,4 +1,10 @@
-# loginSenha.py
+# Módulo: loginSenha.py
+# Descrição: Implementa login e senha ao projeto
+# Autor: Glauco Adenauer
+# Data de Criação: 14 de Novembro de 2025
+# Versão: 1.0
+
+
 import time
 import sys
 
@@ -56,3 +62,5 @@ def login(usuario_ent, senha_ent, app_handler): # Recebe os campos e o handler d
             restantes = MAX_TENTATIVAS - tentativas
             # Retorna a string de erro para a GUI
             return f'❌ Usuário ou senha incorreta.\n Você tem mais {restantes} tentativa(s).'
+        
+#Esse arquivo em projetos mais robustos deverá ser a base para aplicações de segurança e criptografia * Ponto de melhoria + implementação de cadastro de usuario
